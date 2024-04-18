@@ -3,10 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>美食</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css"><!--引入bootstrap样式-->
 </head>
-<link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css"><!--引入bootstrap样式-->
 <body>
+<!--<div class="container">-->
+    <!-- header导航栏 -->
+    <header class="header-nav">
+        <ul class="nav-primary-ul clearFixed">
+            <li class="primary-ul-li"><a href="#">菜单1</a></li>
+            <li class="primary-ul-li"><a href="#">菜单2</a></li>
+            <li class="primary-ul-li"><a href="#">菜单3</a></li>
+            <li class="primary-ul-li"><a href="#">菜单a</a>
+                <ul class="nav-secondary-ul">
+                    <li class="secondary-ul-li"><a href="#">二级菜单</a></li>
+                    <li class="secondary-ul-li"><a href="#">二级菜单</a></li>
+                    <li class="secondary-ul-li"><a href="#">二级菜单</a></li>
+                </ul>
+            </li>
+            <li class="primary-ul-li"><a href="#">菜单b</a>
+                <ul class="nav-secondary-ul">
+                    <li class="secondary-ul-li"><a href="#">二级菜单</a></li>
+                    <li class="secondary-ul-li"><a href="#">二级菜单</a></li>
+                    <li class="secondary-ul-li"><a href="#">二级菜单</a></li>
+                </ul>
+        </ul>
+    </header>
+    <section>
+        <!--section 轮播图 -->
+        <div class="loopbox">
+            <div class="box clearFixed" id="box">
+<!--                <div class="box-item"><img src="/img/1.jpeg" alt=""></div>-->
+                <div class="box-item"><img src="/img/p2.png" alt=""></div>
+                <div class="box-item"><img src="/img/p1.png" alt=""></div>
+            </div>
 
+            <a class="arrow arrow-left" href="javascript:;">左</a>
+            <a class="arrow arrow-right" href="javascript:;">右</a>
+        </div>
+    </section>
+<!--     侧边栏和内容-->
+    <div id="main">
+        <div id="main-left">
+            <ul>
+                <li>热门美食</li>
+                <li>健康美食</li>
+                <li>烹饪教程</li>
+            </ul>
+        </div>
+        <div id="main-right">
+
+        </div>
+    </div>
+    <!-- 最下面div -->
+    <div id="footer">
+        <p><a href="http:www.baidu.com" target="_blank">联系我们</a></p>
+    </div>
+<!--</div>-->
+<script src="js/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!--引入jquery-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-7ymO4nGrkm372HoSbq1OY2DP4pEZnMiA+E0F3zPr+JQQtQ82gQ1HPY3QIVtztVua" crossorigin="anonymous"></script><!--引入bootstrap js-->
 </body>
