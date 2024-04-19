@@ -38,6 +38,7 @@
     flex: 1; /* 使topic和content平分空间 */
     align-items: center;/*垂直居中*/
     justify-content: center;/*水平居中*/
+
 }
 .topic-center{
     font-weight: bold; /* 使标题加粗 */
@@ -45,7 +46,8 @@
     align-items: center;/*垂直居中*/
     justify-content: center;/*水平居中*/
     display: flex;/*添加flex布局*/
-    margin-top: 80px;
+    margin-top: 50px;
+    color:black;
 }
 .content-center{
     align-items: center;/*垂直居中*/
