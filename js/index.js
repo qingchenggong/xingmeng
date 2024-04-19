@@ -1,9 +1,4 @@
 <!-- 轮播图js -->
-    // 获取并显示用户名
-var userName = window.localStorage.getItem("userName");
-if (userName && userName.length != 0) {
-    document.getElementById("showUserName").innerText = userName;
-}
     /* 轮播图--手动 */
     // 1. 获取对象
     // 获取到右按钮
@@ -29,7 +24,7 @@ btnRight.onclick = function() {
         boxIndex = 0;
 }
     // 2.3.图片左移，实现滑动
-    box.style.marginLeft = -1 * 1200 * boxIndex + "px";
+    box.style.marginLeft = -1 * 1300 * boxIndex + "px";
 }
     // 3.点击左按钮
 btnLeft.onclick = function() {
@@ -37,7 +32,7 @@ btnLeft.onclick = function() {
     if (boxIndex < 0) {
         boxIndex = boxItems.length - 1;
 }
-    box.style.marginLeft = -1 * 1200 * boxIndex + "px";
+    box.style.marginLeft = -1 * 1300 * boxIndex + "px";
 }
 
     /* 轮播图--自动 */
@@ -51,7 +46,7 @@ function playTime() {
         if (boxIndex >= boxItems.length) {
             boxIndex = 0;
         }
-        box.style.marginLeft = -1 * 1200 * boxIndex + "px";
+        box.style.marginLeft = -1 * 1300 * boxIndex + "px";
     }, 1000)
 }
 

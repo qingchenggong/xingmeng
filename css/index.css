@@ -1,6 +1,6 @@
 /* 轮播图样式 */
 section {
-    width: 1200px;
+    width: 1300px;
      /*background-color: rgb(191, 127, 255);*/
     /*padding-left: 50px;*/
     /*padding-right: 50px;*/
@@ -8,23 +8,33 @@ section {
     margin: 0 auto;
     text-align: center;
     margin-top: 3px;
+    margin-bottom: 3px;
+     z-index:1;
 }
 .loopbox {
-    width: 1200px;
+    width: 1300px;
     height: 400px;
     overflow: hidden;
     position: relative;
 }
+
+
 .box {
-    width: 3600px;
+    width: 6500px;
+    height: 400px;
 }
+
 .box-item {
-    width: 1200px;
+    width: 1300px;
+    height: 400px;
     float: left;
+
+
 }
 .box img {
-    width: 1200px;
-    height:auto;
+    width: 1300px;
+    height:400px;
+
 }
 /* 左右箭头 */
 .arrow {
