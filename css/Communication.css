@@ -1,0 +1,368 @@
+:root {
+    --n: 4;
+    --margin: 16px;
+    --gap: 16px;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --current-line-height: 24px;
+    --good-reading-width: 70ch;
+    --truncate-lines: 4;
+}
+
+@media screen and (min-width: 744px) {
+    :root {
+        --n: 6;
+        --margin: 32px;
+        --gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    :root {
+        --n: 12;
+        --margin: 32px;
+        --gap: 32px;
+    }
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #2f2f2f;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+}
+
+h2 {
+    font-family: var(--fonts-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    --current-line-height: 32px;
+    margin: 0;
+}
+
+@media screen and (min-width: 744px) {
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+        --current-line-height: 40px;
+    }
+}
+
+h3 {
+    font-family: var(--fonts-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    margin: 0;
+}
+
+@media screen and (min-width: 744px) {
+    h3 {
+        font-size: 26px;
+        line-height: 32px;
+        --current-line-height: 32px;
+    }
+}
+
+a, .link {
+    font-family: var(--fonts-base);
+    font-weight: 600;
+    color: #1769c2;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.block.svelte-n9bgqc {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    /*padding-right: unset;*/
+    /*padding-left: 95px;*/
+}
+
+@media screen and (min-width: 744px) {
+    .block.svelte-n9bgqc {
+        width: calc((calc((min(100vw, 1280px) - (((var(--n) - 1)* var(--gap)) + (2* var(--margin)))) / var(--n))* 12) + (var(--gap)* 11));
+        max-width: 100%;
+    }
+}
+
+.block.svelte-n9bgqc .heading {
+    width: 100%;
+    display: flex;
+    gap: 14px;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block.svelte-n9bgqc .heading .title {
+    max-width: var(--good-reading-width);
+}
+
+.block.svelte-n9bgqc .scrolling {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .block.svelte-n9bgqc .scrolling {
+        display: contents;
+    }
+}
+
+.block.svelte-n9bgqc .body {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 744px) {
+    .block.svelte-n9bgqc .body {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+.block.svelte-n9bgqc .item {
+    flex: 1 0 25%;
+    max-width: 23.02%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 2px solid #F2F2F2;
+    position: relative;
+}
+
+img.svelte-kb6fq {
+    width: 100%;
+    aspect-ratio: var(--aspect-ratio, initial);
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.square.svelte-kb6fq {
+    transition: transform 0.3s ease-in-out; /* 设置过渡效果 */
+}
+
+.square.svelte-kb6fq:hover {
+    transform: scale(1.1);
+}
+
+.block.svelte-n9bgqc .item .title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    padding: 16px;
+}
+
+
+/*####################################################3*/
+
+
+.layout__item.svelte-1mv8t38{
+    --n: 12;
+    --margin: 32px;
+    --gap: 32px;
+    --good-reading-width: 70ch;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    color: #2f2f2f;
+    box-sizing: inherit;
+    margin: auto;
+    width: calc((calc((min(100vw,1280px) - (((var(--n) - 1) * var(--gap)) + (2 * var(--margin)))) / var(--n)) * 12) + (var(--gap) * 11));/* 设置元素的宽度为12列的总宽度加上11个间隙的宽度，这样可以实现响应式布局。 */
+    max-width: 100%;
+}
+
+.block.svelte-109yyfj, .body.svelte-109yyfj{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+}
+
+.body.svelte-109yyfj{
+    flex-flow: row wrap;
+    gap: var(--gap);
+}
+
+.item.svelte-109yyfj, .mobile.svelte-kb6fq{
+    font-weight: 600;
+    color: #1769c2;
+    width: calc((100% - (2 * var(--gap))) / 3);/* 设置元素的宽度为父元素宽度减去两倍间隙的宽度再除以3，这样可以实现三列布局。 */
+}
+
+.item.svelte-109yyfj{
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile.svelte-kb6fq{
+    display: none;
+    width: 100%;
+    aspect-ratio: var(--aspect-ratio, initial);
+    object-fit: cover;
+    border-radius: 4px;
+    --aspect-ratio: 4/3;
+}
+
+.not-mobile.svelte-kb6fq{
+    transition: transform 0.3s ease-in-out; /* 设置过渡效果 */
+    overflow: hidden;
+}
+
+.not-mobile.svelte-kb6fq:hover{
+    transform: scale(1.1); /* 鼠标悬停时放大1.1倍 */
+}
+
+.text.svelte-109yyfj{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 96px 12px 16px;
+    background: linear-gradient(to top,#000,#0000);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #fff;
+}
+
+.title.svelte-109yyfj{
+    color: #fff;
+    font-family: var(--fonts-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: calc(var(--current-line-height) * 2);
+    height: calc(var(--current-line-height) * 2);
+    font-size: 32px;
+    line-height: 34px;
+    --current-line-height: 34px;
+}
+
+/*################################################################*/
+
+.layout__item.svelte-1mv8t38{
+    --n: 12;
+    --margin: 32px;
+    --gap: 32px;
+    --good-reading-width: 70ch;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    color: #2f2f2f;
+    box-sizing: inherit;
+    margin: auto;
+    width: calc((calc((min(100vw,1280px) - (((var(--n) - 1) * var(--gap)) + (2 * var(--margin)))) / var(--n)) * 12) + (var(--gap) * 11));
+    max-width: 100%;
+}
+
+.block.svelte-wpqpqh{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+}
+
+.item.svelte-wpqpqh{
+    border-radius: 4px;
+    border: 2px solid #F2F2F2;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.image.svelte-wpqpqh{
+    font-weight: 600;
+    text-decoration: none;
+    color: #1769c2;
+    line-height: 0;
+    width: 800px;
+}
+
+.square.svelte-kb6fq{
+    font-weight: 600;
+    color: #1769c2;
+    line-height: 0;
+    width: 100%;
+    aspect-ratio: var(--aspect-ratio, initial);
+    object-fit: cover;
+    border-radius: unset;
+    --aspect-ratio: 16/9;
+}
+
+.text.svelte-wpqpqh{
+    display: flex;
+    flex-flow: column nowrap;
+    width: calc(100% - 800px);
+    padding: 48px;
+    gap: 16px;
+}
+
+.caption.svelte-wpqpqh{
+    font-family: var(--fonts-heading);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    --current-line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.title.svelte-wpqpqh{
+    font-family: var(--fonts-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+    font-size: 26px;
+    line-height: 32px;
+    --current-line-height: 32px;
+}
+
+.description.svelte-wpqpqh{
+    display: block;
+    max-height: 242px;
+    max-width: var(--good-reading-width);
+    overflow: auto;
+}
