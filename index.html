@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/content-card.css">
     <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/iconfont.css">
 <!--    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">&lt;!&ndash;引入bootstrap样式&ndash;&gt;-->
 </head>
 <body>
@@ -35,8 +36,17 @@
                 <div class="box-item"><img src="/img/美食主页5.jpg" alt=""></div>
             </div>
 
-            <a class="arrow arrow-left" href="javascript:;">左</a>
-            <a class="arrow arrow-right" href="javascript:;">右</a>
+
+            <a class="arrow arrow-left" href="javascript:;">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-zuoanniu"></use>
+                </svg>
+            </a>
+            <a class="arrow arrow-right" href="javascript:;">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-zuoanniu1"></use>
+                </svg>
+            </a>
         </div>
     </section>
 <!--     侧边栏和内容-->
@@ -45,7 +55,9 @@
             <div class="sort">
 
                 <div style="width: 230px;height: 50px;">
-                    <img src="img/sort.png" alt="" style="width: 25px;height: 25px;float: left;margin-top: 10px;margin-left: 10px">
+                    <svg class="icon" aria-hidden="true" style="width: 25px;height: 25px;float: left;margin-top: 10px;margin-left: 10px">
+                        <use xlink:href="#icon-a-20230816meishitubiao_zhongcan-dongporou"></use>
+                    </svg>
                     <p style="line-height: 50px;">
                         分类
                     </p>
@@ -59,9 +71,11 @@
             </div>
             <div class="sort">
                 <div style="width: 230px;height: 50px;">
-                    <img src="img/排行榜.png" alt="" style="width: 25px;height: 25px;float: left;margin-top: 10px;margin-left: 10px">
+                    <svg class="icon" aria-hidden="true" style="width: 25px;height: 25px;float: left;margin-top: 10px;margin-left: 10px">
+                        <use xlink:href="#icon-a-20230816meishitubiao_zizhucan"></use>
+                    </svg>
                     <p style="line-height: 50px;">
-                        排行榜
+                        经典美食
                     </p>
                 </div>
                 <div class="one"><p align="center"><button style="width: 230px;height: 50px;border-width: 0px" button class="one" onclick="window.location.href = '#'">重庆小面</button></div>
@@ -121,7 +135,8 @@
     </div>
 <!--</div>-->
 <script src="js/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!--引入jquery-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-7ymO4nGrkm372HoSbq1OY2DP4pEZnMiA+E0F3zPr+JQQtQ82gQ1HPY3QIVtztVua" crossorigin="anonymous"></script><!--引入bootstrap js-->
+<script src="xingmeng-iconfont/iconfont.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>&lt;!&ndash;引入jquery&ndash;&gt;-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-7ymO4nGrkm372HoSbq1OY2DP4pEZnMiA+E0F3zPr+JQQtQ82gQ1HPY3QIVtztVua" crossorigin="anonymous"></script>&lt;!&ndash;引入bootstrap js&ndash;&gt;-->
 </body>
 </html>

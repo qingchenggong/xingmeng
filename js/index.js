@@ -47,7 +47,7 @@ function playTime() {
             boxIndex = 0;
         }
         box.style.marginLeft = -1 * 1300 * boxIndex + "px";
-    }, 1000)
+    }, 3000)
 }
 
     //调用playTime()函数

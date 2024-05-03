@@ -3,8 +3,8 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* 添加阴影效果 */
     width: 80%;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 14.6%;
+    /*margin-right: 15%;*/
     height: 13.8em;
     border-radius: 10px;
 }
@@ -25,8 +25,13 @@
     width: 100%;  /* 调整宽度为容器的100% */
     height: 100%; /* 高度自动 */
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* 设置过渡效果 */
+    overflow: hidden;
     /*max-height: 100%;*/
     /*max-width: 100%;*/
+}
+.post-bg:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大1.1倍 */
 }
 .recent-post-info {
     width: 50%;/*右侧占50%的宽度*/
