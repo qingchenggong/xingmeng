@@ -4,28 +4,47 @@
     <meta charset="UTF-8">
     <title>欢迎大家一起探讨人间美食</title>
     <link rel="stylesheet" href="css/Communication.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
+<!--    <link rel="stylesheet" href="css/header.css">-->
+<!--    <link rel="stylesheet" href="css/main.css">-->
+<!--    <link rel="stylesheet" href="../xingmeng/hot/style/head.css">-->
+
+    <link rel="stylesheet" href="/css/head.css">
+    <script src="/js/time.js"></script>
+
 </head>
-<body>
-<header class="header-nav">
-    <img src="logo/logo.png" class="logo">
-    <ul class="nav-primary-ul clearFixed">
-        <li class="primary-ul-li"><a href="index.html">首页</a></li>
-        <li class="primary-ul-li"><a href="Communication.html">美食交流</a></li>
-        <li class="primary-ul-li"><a href="#">美食顾问</a></li>
-        <li class="primary-ul-li"><a href="#">季节特定</a></li>
-        <li class="primary-ul-li"><a href="#">关于我们</a></li>
-    </ul>
-</header>
+<body style="background-image: url('img/back.png');background-size: cover;">
+<div class="guide">
+    <div class="time">
+        <img src="logo/logo1.png" alt="" style="width: 40px;height: 40px;float: left;margin-top: 18px;margin-left: 40px;">
+        <p class="font_head">&nbsp;&nbsp;Dream Star美食网</p>
+        <div id="getTime" style="margin-left: 1100px;line-height: 80px;font-size: 20px;font-weight: 550;font-family: 楷体;">
+            <p>
+                <script>
+                    getTime();
+                    setInterval("getTime()",1000);
+                </script>
+            </p>
+        </div>
+    </div>
+    <div class="guide_bt">
+        <div class="bt"><button class="menu" onclick="window.location.href='text.html'" style="margin-left: 90px;">首页</button></div>
+        <div class="bt"><button class="hot" onclick="window.location.href='Communication.html'">热门</button></div>
+        <div class="bt"><button class="season" onclick="window.location.href='season/text.html'"  >季节</button></div>
+        <div class="bt"><button class="advice" onclick="window.location.href='index.html'" >推荐</button></div>
+        <div class="bt"><button  class="cooking" onclick="window.location.href='cooking/text.html'">厨艺</button></div>
+        <div class="bt"><button class="us" onclick="window.location.href='us/text.html'">我们</button></div>
+    </div>
+</div>
 
 
-
-
+<br>
+<br>
+<br>
+<br>
 <div class="layout__item svelte-1mv8t38">
 
     <div class="block svelte-109yyfj">
-        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不容错过的顶级食谱</font></font></h2>
+
         <div class="body svelte-109yyfj">
             <div class="item svelte-109yyfj">
 
@@ -190,9 +209,8 @@
                 <div class="item svelte-n9bgqc">
 
 
-
-                <img style="--aspect-ratio: 4/3;" src="img/美食交流%20(10).jpg" sizes="(min-width: 744px) 25vw, 100vw" alt="芝麻红烧肉" loading="eager" class="square svelte-kb6fq">
-
+                    <a href="content/cooking/hongshaorou.html"><img style="--aspect-ratio: 4/3;" src="img/美食交流%20(10).jpg" sizes="(min-width: 744px) 25vw, 100vw" alt="芝麻红烧肉" loading="eager" class="square svelte-kb6fq">
+                    </a>
 
                 <h3 class="title svelte-n9bgqc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">芝麻红烧肉</font></font></h3>
             </div>

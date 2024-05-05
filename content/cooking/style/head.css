@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.guide{
+    width: 1263px;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+.menu{
+    cursor: pointer;
+    width: 8%;
+    height: 60px;
+    border: 0px;
+    font-size: 20px ;
+    background-color: rgba(57, 44, 44, 0);
+    float: left;
+}
+.hot{
+    cursor: pointer;
+    width: 8%;
+    height: 60px;
+    border: 0px;
+    font-size: 20px ;
+    background-color: rgba(57, 44, 44, 0);
+    float: left;
+}
+.season{
+    cursor: pointer;
+    width: 8%;
+    height: 60px;
+    border: 0px;
+    font-size: 20px ;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+}
+.advice{
+    cursor: pointer;
+    width: 8%;
+    height: 60px;
+    border: 0px;
+    font-size: 20px ;
+    background-color: rgba(57, 44, 44, 0);
+    float: left;
+}
+.cooking{
+    cursor: pointer;
+    width: 8%;
+    height: 60px;
+    border: 0px;
+    font-size: 20px ;
+    background-color: rgba(57, 44, 44, 0);
+    float: left;
+}
+.us{
+    cursor: pointer;
+    width: 8%;
+    height: 60px;
+    border: 0px;
+    font-size: 20px ;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+}
+.guide_bt{
+    width: 1263px;
+    height: 60px;
+}
+:hover.menu{
+    background-color: rgba(57, 44, 44, 0.2);
+}
+:hover.hot{
+    background-color: rgba(57, 44, 44, 0.2);
+}
+:hover.season{
+    background-color: rgba(57, 44, 44, 0.2);
+}
+:hover.advice{
+    background-color: rgba(57, 44, 44, 0.2);
+}
+:hover.cooking{
+    background-color: rgba(57, 44, 44, 0.2);
+}
+:hover.us{
+    background-color: rgba(57, 44, 44, 0.2);
+}
+.time{
+    height: 50px;
+    width: 1263px;
+}
+.font_head{
+    font-size: 20px;
+    line-height: 70px;
+    font-family: 宋体;
+    margin-left: -30px;
+    font-weight:bolder;
+    float: left;
+}

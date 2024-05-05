@@ -9,48 +9,41 @@
     <link rel="stylesheet" href="css/content-card.css">
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/iconfont.css">
-<!--    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">&lt;!&ndash;引入bootstrap样式&ndash;&gt;-->
+<!--    <link rel="stylesheet" href="../xingmeng/advice/style/head.css">-->
+    <link rel="stylesheet" href="css/head.css">
+    <!--    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">&lt;!&ndash;引入bootstrap样式&ndash;&gt;-->
+    <script src="js/time.js"></script>
 </head>
-<body>
-<!--<div class="container">-->
-    <!-- header导航栏 -->
-    <header class="header-nav">
-        <img src="logo/logo.png" class="logo">
-        <ul class="nav-primary-ul clearFixed">
-            <li class="primary-ul-li"><a href="index.html">首页</a></li>
-            <li class="primary-ul-li"><a href="Communication.html">美食交流</a></li>
-            <li class="primary-ul-li"><a href="#">美食顾问</a></li>
-            <li class="primary-ul-li"><a href="#">季节特定</a></li>
-            <li class="primary-ul-li"><a href="#">关于我们</a></li>
-        </ul>
-    </header>
-    <section>
-        <!--section 轮播图 -->
-        <div class="loopbox">
-            <div class="box clearFixed" id="box">
-<!--                <div class="box-item"><img src="/img/1.jpeg" alt=""></div>-->
-                <div class="box-item"><img src="/img/美食主页1.jpg" alt=""></div>
-                <div class="box-item"><img src="/img/美食主页2.jpg" alt=""></div>
-                <div class="box-item"><img src="/img/美食主页3.jpg" alt=""></div>
-                <div class="box-item"><img src="/img/美食主页4.jpg" alt=""></div>
-                <div class="box-item"><img src="/img/美食主页5.jpg" alt=""></div>
-            </div>
+<body style="background-image: url('img/back.png');background-size: cover;">
 
-
-            <a class="arrow arrow-left" href="javascript:;">
-                <svg class="icon" aria-hidden="true">
-                    <use xlink:href="#icon-zuoanniu"></use>
-                </svg>
-            </a>
-            <a class="arrow arrow-right" href="javascript:;">
-                <svg class="icon" aria-hidden="true">
-                    <use xlink:href="#icon-zuoanniu1"></use>
-                </svg>
-            </a>
+<div class="guide">
+    <div class="time">
+        <img src="/logo/logo1.png" alt="" style="width: 40px;height: 40px;float: left;margin-top: 18px;margin-left: 40px;">
+        <p class="font_head">&nbsp;&nbsp;Dream Star美食网</p>
+        <div id="getTime" style="margin-left: 1100px;line-height: 80px;font-size: 20px;font-weight: 550;font-family: 楷体;">
+            <p>
+                <script>
+                    getTime();
+                    setInterval("getTime()",1000);
+                </script>
+            </p>
         </div>
-    </section>
-<!--     侧边栏和内容-->
-    <div id="main">
+    </div>
+    <div class="guide_bt">
+        <div class="bt"><button class="menu" onclick="window.location.href='text.html'" style="margin-left: 90px;">首页</button></div>
+        <div class="bt"><button class="hot" onclick="window.location.href='Communication.html'">热门</button></div>
+        <div class="bt"><button class="season" onclick="window.location.href='season/text.html'"  >季节</button></div>
+        <div class="bt"><button class="advice" onclick="window.location.href='index.html'" >推荐</button></div>
+        <div class="bt"><button  class="cooking" onclick="window.location.href='cooking/text.html'">厨艺</button></div>
+        <div class="bt"><button class="us" onclick="window.location.href='us/text.html'">我们</button></div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--&lt;!&ndash;     侧边栏和内容&ndash;&gt;style="margin-top: -10px"-->
+    <div id="main" >
         <div id="main-left">
             <div class="sort">
 
@@ -130,9 +123,6 @@
         </div>
     </div>
     <!-- 最下面div -->
-    <div id="footer">
-        <p><a href="http:www.baidu.com" target="_blank">联系我们</a></p>
-    </div>
 <!--</div>-->
 <script src="js/index.js"></script>
 <script src="xingmeng-iconfont/iconfont.js"></script>

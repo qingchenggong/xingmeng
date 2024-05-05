@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index1.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/show.css">
+    <link rel="stylesheet" href="css/tail.css">
+    <link rel="stylesheet" href="css/people.css">
+    <script src="./js/index.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/time.js"></script>
+    <script src="/js/mouse"></script>
+
+</head>
+<body>
+    <div class="guide">
+        <div class="time">
+            <img src="./img/logo.png" alt="" style="width: 40px;height: 40px;float: left;margin-top: 18px;margin-left: 40px;">
+            <p class="font_head">&nbsp;&nbsp;Dream Star美食网</p>
+            <div id="getTime" style="margin-left: 1100px;line-height: 80px;font-size: 20px;font-weight: 550;font-family: 楷体;">
+              <p>
+                <script>
+                  getTime();
+                  setInterval("getTime()",1000);
+                </script>
+              </p>
+            </div>
+        </div>
+        <div class="guide_bt">
+            <div class="bt"><button class="menu" onclick="window.location.href='text.html'" style="margin-left: 90px;">首页</button></div>
+            <div class="bt"><button class="hot" onclick="window.location.href='Communication.html'">热门</button></div>
+            <div class="bt"><button class="season" onclick="window.location.href='../season/text.html'"  >季节</button></div>
+            <div class="bt"><button class="advice" onclick="window.location.href='index.html'" >推荐</button></div>
+            <div class="bt"><button  class="cooking" onclick="window.location.href='../cooking/text.html'">厨艺</button></div>
+            <div class="bt"><button class="us" onclick="window.location.href='../us/text.html'">我们</button></div>
+        </div>
+    </div>
+    <div class="banners-wjd">
+        <div class="banners">
+            <div class="images">
+                <!-- 核心滚动区 -->
+                <div>
+                    <img src="./img/bcg1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/bcg2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/bcg3.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/bcg4.jpg" alt="">
+                </div>
+            </div>
+            <!-- 左箭头 -->
+            <a href="javascript:;" class="prev"> &lt;</a>
+            <!-- 右箭头 -->
+            <a href="javascript:;" class="next"> &gt;</a>
+            <!-- 小圆点 -->
+            <ul class="dots">
+                <!-- li 可用js动态生成-->
+            </ul>
+        </div>
+    </div>
+
+    <div class="show" id="div2">
+        <img src="img/value.png" alt="" style="width: 300px;height: 300px;float: left;margin-left: 10px;">
+        <div class="suan" id="s"><img src="img/s.png" alt="" style="width: 155px;height: 285px;"></div>
+        <div class="tian" id="t"><img src="img/t.png" alt="" style="width: 155px;height: 285px;"></div>
+        <div class="ku" id="k"><img src="img/k.png" alt="" style="width: 155px;height: 285px;"></div>
+        <div class="la" id="l"><img src="img/l.png" alt="" style="width: 155px;height: 285px;"></div>
+        <div class="food1"><img class="i" src="./img/piece.png" alt="" style="width: 200px;height: 200px;"></div>
+        <div class="food2"><img class="i" src="./img/peice2.png" alt="" style="width: 400px;height: 250px;"></div>
+        <div id="guide2">
+            <img src="img/logo.png" alt="" style="width: 60px; height: 60px; margin-top: 20px;float: left; margin-left: 20px;">
+            <a href="" class="aaa">今日推荐</a>
+        </div>
+    </div>
+    <script>
+
+        var s = document.getElementById("s");
+        var t = document.getElementById("t");
+        var k = document.getElementById("k");
+        var l = document.getElementById("l");
+        var g = document.getElementById("guide2");
+
+    // 获取3个嵌套的div元素
+    window.onscroll = function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+        console.log("滚动距离" + scrollTop);
+        if(scrollTop>100&&scrollTop<1100){
+            s.style.animation = "mymove 2s";
+            s.style['animation-fill-mode'] = 'both';
+            t.style.animation = "mymove2 2s";
+            t.style['animation-fill-mode'] = 'both';
+            k.style.animation = "mymove 2s";
+            k.style['animation-fill-mode'] = 'both';
+            l.style.animation = "mymove2 2s";
+            l.style['animation-fill-mode'] = 'both';
+            g.style.animation = "mymove3 2s";
+            g.style['animation-fill-mode'] = 'both';
+        }
+        else{
+            s.style.animation = "mymove_ 1s";
+            s.style['animation-fill-mode'] = 'both';
+            t.style.animation = "mymove_ 1s";
+            t.style['animation-fill-mode'] = 'both';
+            k.style.animation = "mymove_ 1s";
+            k.style['animation-fill-mode'] = 'both';
+            l.style.animation = "mymove_ 1s";
+            l.style['animation-fill-mode'] = 'both';
+        }
+        }
+    </script>
+
+    <div class="people" id="people">
+        <div class="people_title">
+            <p style="font-size: 60px;font-weight: bolder;font-family: YouYuan;">香粮外传</p>
+            <img src="img/guzi.png" alt="" style="width: 300px;height: 300px;margin-left: 170px;margin-top: -100px;">
+        </div>
+        <div class="tell_ylp" id="tell_ylp">
+            <p style="font-size: 40px;font-weight: 400;"><a href="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836" style="color: rgb(42, 42, 42);text-decoration: none;">袁隆平</a></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首届国家最高科学技术奖得主、杂交水稻之父</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;袁隆平（1930年9月7日-2021年5月22日） [93]，男，汉族，生于北平（今北京市） [2-3] [6]，无党派人士，江西省九江市德安县 [1] [120-121]人。享誉海内外的著名农业科学家，中国杂交水稻事业的开创者和领导者，中国共产党的亲密朋友，无党派人士的杰出代表，“共和国勋章”获得者，湖南省政协原副主席，国家杂交水稻工程技术研究中心原主任，中国工程院院士 [7] [109]，被誉为“杂交水稻之父” [4-6]。
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1953年毕业于西南农学院，1995年被选为中国工程院院士，1999年中国科学院北京天文台施密特CCD小行星项目组发现的一颗小行星被命名为袁隆平星，2000年获得国家最高科学技术奖，2004年获得沃尔夫农业奖 [10]，2006年4月当选美国国家科学院外籍院士，2010年获得澳门科技大学荣誉博士学位，2013年获得第四届中国消除贫困奖终身成就奖，2018年当选中国发明协会首届会士 [6] [8] [11-14] [86]。2018年9月8日，获得“未来科学大奖”生命科学奖 [16]；2018年12月18日，党中央、国务院授予袁隆平改革先锋称号，颁授改革先锋奖章，获评杂交水稻研究的开创者。</p>
+        </div>
+        <div class="tell_xyr" id="tell_xyr">
+            <p style="font-size: 40px;font-weight: 400;"><a href="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836" style="color: rgb(42, 42, 42);text-decoration: none;">徐一戎</a></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全国优秀农业科技工作者</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;徐一戎（1924年4月~2014年5月13日），辽宁北宁人，汉族，无党派人士。曾荣获全国五一劳动奖章、全国优秀农业科技工作者、黑龙江省特等劳动模范、黑龙江农垦总局特等劳动模范等称号，并被聘为我国北方水稻科学技术协会荣誉理事长。终身享受国务院特殊津贴待遇。徐一戎把毕生的精力献给了寒地水稻事业，被中宣部列为全国重点宣传典型人物，被中央电视台誉为中国水稻界的“南袁北徐”，被广大群众尊誉为“北大荒水稻之父”。
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1943年和1947年分别毕业于奉天农业大学农学系和东北大学农学院农艺学系。1949年－1979年，先后在东北人民政府农业部计划处、莲江口农场、合江试验农场任农业技师、技术室主任、副场长等职；1979年－1984年，在黑龙江农垦科学院水稻所、作物所先后任高级农艺师、副所长、总农艺师等职；1985年－1996年，在黑龙江农垦科学院学术委员会、黑龙江省水稻研究会任副主任、副理事长等职；1997年至今为黑龙江农垦科学院终身不退休研究员。</p>
+        </div>
+        <div class="tell_ldh" id="tell_ldh">
+            <p style="font-size: 40px;font-weight: 400;"><a href="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836" style="color: rgb(42, 42, 42);text-decoration: none;">李登海</a></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全国人大第八、九届常委。现任《玉米科学》编委会副主任，中共第九届山东省委委员。</p>
+            <p>李登海作为农民发明家，被称为“中国紧凑型杂交玉米之父”，使他与“杂交水稻之父”袁隆平齐名，共享“南袁北李”的美誉。30多年间，先后选育玉米高产新品种80多个，7次开创和刷新了中国夏玉米的高产纪录。他主持选育的“掖单”系列玉米新品种，曾获国家科技进步奖一等奖。
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20世纪90年代中后期，他又育成“登海”系列玉米新品种，成为中国跨世纪的主推品种。登海9号玉米新品种，具有优质、高产、多抗的突出特点，其产量比曾获国家科技进步奖一等奖的“掖单13号”还增产11.4%。经国家审定，适宜在东北、黄淮海、西北及南方玉米区种植。2000年3月至2007年底累计生产销售登海9号5624.08万公斤，累计推广面积1874.69万亩，累计增产粮食11.40亿公斤，累计新增社会效益11.4亿元，为保障中国粮食安全做出了贡献。登海9号具有较高的淀粉含量，也受到了乙醇汽油生产企业的青睐，为保障中国能源安全也提供了有力的品种支撑。</p>
+        </div>
+
+        <div class="people_img">
+            <div class="xuyirong" id="xyr"></div>
+            <div class="yuanlongping"
+            id="ylp"></div>
+            <div class="lidenghai"
+            id="ldh"></div>
+        </div>
+    </div>
+    <div class="tail">
+        <div style="margin-top: 50px;float: left;margin-left: 630px;">
+            <p style="font-size: 30px;">猜你喜欢<img src="img/eat.png" alt="" style="width: 100px;height: 100px;"></p>
+            
+        </div>
+        <div class="like">
+            <div class="a"><a href=""><img src="img/a.jpg" alt="" style="width: 150px;height: 100px;"></a></div>
+            <div class="b"><a href=""><img src="img/b.jpg" alt=""  style="width: 150px;height: 100px;"></a></div>
+            <div class="c"><a href=""><img src="img/c.jpg" alt="" style="width: 150px;height: 100px;"></a></div>
+            <div class="d"><a href=""><img src="img/d.jpg" alt="" style="width: 150px;height: 100px;"></a></div>
+        </div>
+
+            <footer>
+
+                <br>
+
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="">首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                        <li><a href="">关于我们&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                        <li><a href="">联系我们&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                        <li><a href="">服务</a></li>
+                    </ul>
+                </div>
+             
+                <div class="footer-info">
+                    <p>© 2024 Chongqing Ability Limited Company. All rights reserved.</p>
+                    <p><a href="">隐私政策</a> | <a href="">使用条款</a> | <a href="">常见问题</a></p>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>联系我们：1234567890@qq.com</p>
+                    <p>电话：123-456-7890</p>
+                </div>
+                <div class="footer-back-to-top">
+                    <a href="">返回顶部</a>
+                </div>
+            </footer>
+
+
+    </div>
+    <script>
+    function sleep(millisecond) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                resolve()
+            }, millisecond)
+        })
+    }
+
+
+    async function test() {
+        const start = new Date().getTime();
+       console.log("执行开始",start);
+       await sleep(3000);
+       console.log("执行结束",new Date().getTime() - start)
+   }
+
+        var xyr=document.getElementById("xyr");
+        var ylp=document.getElementById("ylp");
+        var ldh=document.getElementById("ldh");
+        var div1=document.createElement("div");
+        var div2=document.createElement("div");
+        var div3=document.createElement("div");
+        div1=document.getElementById("tell_ylp");
+        div2=document.getElementById("tell_xyr");
+        div3=document.getElementById("tell_ldh");
+        document.getElementById
+
+            ("tell_ldh").remove();
+            document.getElementById
+            ("tell_xyr").remove();
+        xyr.onmouseover=function(){
+
+            ylp.style.height="100px";
+            div1.remove();
+            document.getElementById
+            ("people").appendChild(div2);
+        }
+        xyr.onmouseout=function(){
+            ylp.style.height="200px";
+            div3.remove();
+            document.getElementById
+            ("people").appendChild(div1);
+            div2.remove();
+        }
+        ldh.onmouseover=function(){
+            ylp.style.height="100px";
+            div1.remove();
+            document.getElementById
+            ("people").appendChild(div3);
+        }
+        ldh.onmouseout=function(){
+            ylp.style.height="200px";
+            div2.remove();
+            document.getElementById
+            ("people").appendChild(div1);
+            div3.remove();
+        }
+
+
+
+    var index = 0;
+    var images = document.querySelectorAll('.images div');
+    var total = images.length;
+
+    function slide() {
+        images[index].style.display = 'none';
+        index = (index + 1) % total;
+        images[index].style.display = 'block';
+    }
+
+    document.querySelector('.prev').addEventListener('click', function() {
+        images[index].style.display = 'none';
+        index = (index - 1 + total) % total;
+        images[index].style.display = 'block';
+    });
+
+    document.querySelector('.next').addEventListener('click', function() {
+        images[index].style.display = 'none';
+        index = (index + 1) % total;
+        images[index].style.display = 'block';
+    });
+
+    setInterval(slide, 3000);  // 每3秒切换一次
+
+    </script>
+
+
+
+
+</body>
+</html>
