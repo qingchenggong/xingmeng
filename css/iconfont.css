@@ -1,0 +1,11 @@
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+}
+.icon:hover {
+    transform: scale(1.1); /* 放大图标 */
+}

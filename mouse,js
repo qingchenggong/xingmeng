@@ -1,0 +1,24 @@
+function smoothScroll(targetPosition) {
+const startPosition = window.pageYOffset;
+const distance = targetPosition - startPosition;
+const duration = 800; // 滚动时间
+let start = null;
+function step(timestamp) {
+if (!start) start = timestamp;
+const progress = timestamp - start;
+const scrollY = progress / duration * distance + startPosition;
+window.scrollTo(0, scrollY);
+if (progress < duration) {
+  window.requestAnimationFrame(step);
+}
+}
+
+window.requestAnimationFrame(step);
+}
+
+// 在滚动事件中调用smoothScroll函数，传入目标位置
+window.addEventListener('wheel', (e) => {
+e.preventDefault();
+let targetPosition = window.pageYOffset + e.deltaY * 6.65;
+smoothScroll(targetPosition);
+});

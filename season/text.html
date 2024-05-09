@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/head.css">
+    <link rel="stylesheet" href="style/css.css">
+    <script src="js/video.js"></script>
+    <script src="js/time.js"></script>
+
+</head>
+<body style="background-color: rgb(231,234,251);">
+    <div class="guide">
+        <div class="time">
+            <img src="img/logo.png" alt="" style="background-color: transparent; width: 40px;height: 40px;float: left;margin-top: 18px;margin-left: 40px;">
+            <p class="font_head">&nbsp;&nbsp;Dream Star美食网</p>
+            <div id="getTime" style="margin-left: 70vw;line-height: 80px;font-size: 20px;font-weight: 550;font-family: 楷体;">
+              <p>
+                <script>
+                  getTime();
+                  setInterval("getTime()",1000);
+                </script>
+              </p>
+            </div>
+        </div>
+        <div class="guide_bt">
+            <div class="bt"><button class="menu" onclick="window.location.href='../index.html'" style="margin-left: 90px;">首页</button></div>
+            <div class="bt"><button class="hot" onclick="window.location.href='../Communication.html'">热门</button></div>
+            <div class="bt"><button class="advice" onclick="window.location.href='../recommend.html'" >推荐</button></div>
+            <div class="bt"><button  class="cooking" onclick="window.location.href='../cooking/text.html'">厨艺</button></div>
+            <div class="bt"><button class="us" onclick="window.location.href='../us/text.html'">我们</button></div>
+        </div>
+        </div>
+    <div style="    width: 98.66vw;
+    height: 98.66vh;Overflow: hidden">
+        <video id="h2" autoplay="autoplay" loop="loop" src="img/roof.mp4" style="margin-left: -12.5%; width: 125%;margin-top: -160px"></video>
+    </div>
+
+
+    <div class="pot">
+        <div style="width: 98.66vw;height: 160px"></div>
+        <div style="width: 700px;height: 400px;background-color: rgba(57, 44, 44, 0.2);margin-top: -160px;"></div>
+        <div style="width: 700px;height: 410px;background-color: rgba(248,159,159,0.2);margin-top: -80px;margin-left: 400px"></div>
+
+        <div></div>
+        <div class="video" id="video">
+
+            <video loop="loop" src="img/hot.mp4" class="hotpot" id="hotpot"></video>
+        </div>
+    </div>
+
+    <script>
+        var v=document.getElementById('video');
+        var h=document.getElementById('hotpot');
+        var h2=document.getElementById('h2');
+        v.onmouseover=function () {
+            v.style.width = '400px';
+            v.style.height = '400px';
+            v.style.marginTop = '-563px';
+            h.style.marginTop='39px';
+            h.style.marginLeft='-95px';
+            h.play();
+            h.currentTime=0;
+        }
+        v.onmouseout=function (){
+            v.style.width = '250px';
+            v.style.height = '250px';
+            v.style.marginTop = '-500px';
+            h.style.marginTop='-25px';
+            h.style.marginLeft='-170px';
+            h.pause();
+        }
+        window.onscroll = function() {
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+            console.log("滚动距离" + scrollTop);
+            if (scrollTop > 300) {
+                h2.pause();
+            }
+            else {
+                h2.play();
+            }
+        }
+    </script>
+    </div>
+</body>
+</html>

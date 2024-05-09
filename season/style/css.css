@@ -1,0 +1,25 @@
+.pot {
+    margin-top: -160px;
+    width: 98.66vw;
+    height: 735px;
+}
+.video{
+    margin: 0 auto;
+    margin-top: -500px;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50% 50% 50% 50%;
+    transition: all 0.5s;
+}
+
+.hotpot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin-top: -25px;
+    margin-left: -170px;
+    transition: all 0.5s;
+}

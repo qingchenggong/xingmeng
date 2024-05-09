@@ -1,0 +1,72 @@
+.footer-area.clear{
+    color: #000;
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    margin: 0;
+    zoom: 1;
+    clear: both;
+    padding: 20px 0;
+}
+.w{
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    margin: 0;
+    padding: 0;
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    /*border-top: 1px solid #e8e8e8;*/
+    color: #666;
+}
+.ft1{
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    clear: none;
+    float: left;
+    width: 860px;
+}
+.c3b{
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    clear: both;
+    padding: 0 0 8px 0;
+    color: #c90;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+}
+.c3c{
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    color: #666;
+    margin: 0;
+    clear: both;
+    padding: 0 0 8px 0;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.ft4{
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    clear: none;
+    float: right;
+    /*text-align: center;*/
+}
+.imgLoad{
+    font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
+    color: #666;
+    /*text-align: center;*/
+    width: 100px;
+    aspect-ratio: auto 100 / 140;
+    height: 140px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+    background: #f8f8f8;
+    display: block;
+}

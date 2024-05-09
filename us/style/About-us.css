@@ -1,0 +1,169 @@
+* {
+  font-family: "微软雅黑";
+  -webkit-text-size-adjust: none;
+}
+.content{
+background:#F0FFFF;
+height:300px;}
+.content2{
+background:#F0FFFF;
+height:310px;}
+.content h2 {
+    font-size: 22px;
+    color: #2ca594;
+    line-height: 22px;
+    padding-left: 26px;
+    background: rgba(0, 0, 0, 0)  no-repeat scroll left center;
+}
+.content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    overflow: hidden;
+
+}
+.link-a a{
+    color: #ff6767;
+    font-size:30px;
+}
+
+.content img {
+   float: left;
+   margin-right: 10px;
+   border-radius:8px
+
+}
+.content2 img {
+   float: right;
+   margin-right: 10px;
+   border-radius:8px
+
+}
+.content2 h2 {
+    font-size: 22px;
+    color: #2ca594;
+    line-height: 22px;
+    padding-left: 12px;
+    background: rgba(0, 0, 0, 0)  no-repeat scroll left center;
+}
+.content2 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    overflow: hidden;
+
+}
+#contact .bot {
+  padding: 35px 40px 52px 39px;
+
+}
+#contact .title {
+  font-size: 24px;
+  color: rgb(229,217,191);
+}
+#contact .intro {
+  font-size: 14px;
+    color: rgb(229,217,191);}
+#contact .intro a {
+  color: #2ca594;
+  text-decoration: underline;
+}
+.blank30 {
+  margin: 0px auto;
+  clear: both;
+  height: 18px;
+  font-size: 1px;
+  overflow: hidden;
+}
+
+.clear {
+  margin: 0px auto;
+  clear: both;
+  height: 0px;
+  font-size: 0px;
+  /*overflow: hidden;*/
+}
+.blank15 {
+  margin: 0px auto;
+  clear: both;
+  height: 15px;
+  font-size: 1px;
+  overflow: hidden;
+}
+#contact .bot .form_textarea {
+  padding: 15px;
+  width: 808px;
+  height: 118px;
+  border: 1px solid #f9f9f9;
+  outline: none;
+  font-size: 18px;
+  background: #f9f9f9;
+  color: #999999;
+  resize: none;
+  border-radius: 3px;
+}
+.blank25 {
+  margin: 0px auto;
+  clear: both;
+  height: 25px;
+  font-size: 1px;
+  overflow: hidden;
+}
+
+
+#contact .bot .fr {
+  width: 520px;
+  height: 300px;
+  background: #F0FFFF;;
+  text-align: center;
+}
+#contact .bot .sign {
+  font-size: 20px;
+  color: #666;
+  padding-top: 30px;
+}
+#contact .bot .subsign {
+  font-size: 20px;
+  color: #2ca594;
+  margin-top: 10px;
+}
+#contact .bot .img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+    margin-top: 0px;
+  margin-top: 15px;
+}
+.img img {
+  vertical-align: middle;
+}
+img {
+  border: none;
+  max-width: 100%;
+  max-height: 100%;
+}
+.img span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/*float*/
+.fl{float:left;}
+.fr{float:right;}
+
+
+/*img-vertical*/
+.img{ text-align:center;}
+.img span{ display:inline-block; height:100%; vertical-align:middle;}
+.img img{ vertical-align:middle;}
+
+.form{background:#F0FFFF;}
+
+

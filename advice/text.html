@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/head.css">
+    <script src="js/time.js"></script>
+
+</head>
+<body>
+    <div class="guide">
+        <div class="time">
+            <img src="img/logo.png" alt="" style="width: 40px;height: 40px;float: left;margin-top: 18px;margin-left: 40px;">
+            <p class="font_head">&nbsp;&nbsp;Dream Star美食网</p>
+            <div id="getTime" style="margin-left: 70vw;line-height: 80px;font-size: 20px;font-weight: 550;font-family: 楷体;">
+              <p>
+                <script>
+                  getTime();
+                  setInterval("getTime()",1000);
+                </script>
+              </p>
+            </div>
+        </div>
+        <div class="guide_bt">
+            <div class="bt"><button class="menu" onclick="window.location.href='../index.html'" style="margin-left: 90px;">首页</button></div>
+            <div class="bt"><button class="hot" onclick="window.location.href='../Communication.html'">热门</button></div>
+            <div class="bt"><button class="season" onclick="window.location.href='../season/text.html'" >糕点</button></div>
+            <div class="bt"><button class="advice" onclick="window.location.href='../advice/text.html'" >推荐</button></div>
+            <div class="bt"><button  class="cooking" onclick="window.location.href='../cooking/text.html'">厨艺</button></div>
+            <div class="bt"><button class="us" onclick="window.location.href='../us/text.html'">我们</button></div>
+        </div>
+        </div>
+</body>
+</html>
