@@ -588,7 +588,7 @@
 
   var ARROW_RIGHT_KEYCODE = 39; // KeyboardEvent.which value for right arrow key
 
-  var TOUCHEVENT_COMPAT_WAIT = 500; // Time for mouse,js compat events to fire after touch
+  var TOUCHEVENT_COMPAT_WAIT = 500; // Time for mouse.js compat events to fire after touch
 
   var SWIPE_THRESHOLD = 40;
   var CLASS_NAME_CAROUSEL = 'carousel';
@@ -843,11 +843,11 @@
 
         if (_this3._config.pause === 'hover') {
           // If it's a touch-enabled device, mouseenter/leave are fired as
-          // part of the mouse,js compatibility events on first tap - the carousel
+          // part of the mouse.js compatibility events on first tap - the carousel
           // would stop cycling until user tapped out of it;
           // here, we listen for touchend, explicitly pause the carousel
           // (as if it's the second time we tap on it, mouseenter compat event
-          // is NOT fired) and after a timeout (to allow for mouse,js compatibility
+          // is NOT fired) and after a timeout (to allow for mouse.js compatibility
           // events to fire) we explicitly restart cycling
           _this3.pause();
 
@@ -4138,7 +4138,7 @@
 
   var ARROW_DOWN_KEYCODE = 40; // KeyboardEvent.which value for down arrow key
 
-  var RIGHT_MOUSE_BUTTON_WHICH = 3; // MouseEvent.which value for the right button (assuming a right-handed mouse,js)
+  var RIGHT_MOUSE_BUTTON_WHICH = 3; // MouseEvent.which value for the right button (assuming a right-handed mouse.js)
 
   var REGEXP_KEYDOWN = new RegExp(ARROW_UP_KEYCODE + "|" + ARROW_DOWN_KEYCODE + "|" + ESCAPE_KEYCODE$1);
   var CLASS_NAME_DISABLED$1 = 'disabled';
