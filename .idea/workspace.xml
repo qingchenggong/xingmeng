@@ -7,15 +7,10 @@
     <list default="true" id="b8359c48-86a2-4f6e-9f5f-d7b6c03c9e53" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Communication.html" beforeDir="false" afterPath="$PROJECT_DIR$/Communication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.6.2-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.6.2-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.6.2-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.6.2-dist/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouse,js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/recommend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/us/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Communication.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Communication.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\安鑫\Desktop\xingmeng (2)\xingmeng" />
@@ -76,6 +72,9 @@
       <workItem from="1715245576013" duration="4056000" />
       <workItem from="1715252009013" duration="632000" />
       <workItem from="1715254388416" duration="8051000" />
+      <workItem from="1715265837225" duration="2032000" />
+      <workItem from="1715320431425" duration="516000" />
+      <workItem from="1715334592296" duration="4200000" />
     </task>
     <servers />
   </component>

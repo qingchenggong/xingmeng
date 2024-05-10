@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="menu/style/show.css">
     <link rel="stylesheet" href="menu/style/tail.css">
     <link rel="stylesheet" href="menu/style/people.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
     <script src="menu/js/index.js"></script>
     <script src="menu/js/animate.js"></script>
     <script src="menu/js/time.js"></script>
@@ -286,10 +286,22 @@
 
 
     <script>
+        function debounce(func, wait) {
+            let timeout;
+            return function() {
+                const context = this;
+                const args = arguments;
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    func.apply(context, args);
+                }, wait);
+            }
+        }
+
         var elements = [".banners", ".show", ".people", ".tail"];
         var currentIndex = 0;
 
-        $('body').on('wheel', function(event) {
+        var scrollHandler = debounce(function(event) {
             event.preventDefault();
 
             if (event.originalEvent.deltaY > 0) {
@@ -307,7 +319,10 @@
             $('html, body').animate({
                 scrollTop: $(elements[currentIndex]).offset().top
             }, 1000);  // 1000 milliseconds = 1 second
-        });
+        }, 50); // 200 milliseconds debounce time
+
+        $('body').on('wheel', scrollHandler);
+
     </script>
 
 
