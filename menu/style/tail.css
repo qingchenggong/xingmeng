@@ -78,8 +78,9 @@ footer {
     text-decoration: underline;
 }
 .a{
-    float: left;    margin-left: 17%;
-
+    float: left;
+    /*margin-left: 17%;*/
+    margin-left: 5%;
 }
 .b{
     float: left;    margin-left: 100px;

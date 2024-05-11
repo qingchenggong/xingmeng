@@ -18,7 +18,7 @@ window.addEventListener('load', function () {
         timer = setInterval(function () {
             // 轮播图自动切换 相当于点击右箭头
             next.click();
-        }, 5000);
+        }, 3500);
     });
     // 4. 动态生成小圆圈 有几张图片，就生成几个小圆圈
     var images = document.querySelector('.images');
@@ -95,6 +95,6 @@ window.addEventListener('load', function () {
     var timer = setInterval(function () {
         //手动调用点击事件
         next.click();
-    }, 4000);
+    }, 3500);
 
 })

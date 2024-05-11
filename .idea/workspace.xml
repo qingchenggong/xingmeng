@@ -8,11 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/img/weibo.png" beforeDir="false" afterPath="$PROJECT_DIR$/us/img/weibo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/style/About-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/About-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/style/about-beian.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/about-beian.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/style/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/head.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/us/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooking/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/style/show.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/style/show.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/style/tail.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/style/tail.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/安鑫/新手教程html/xingmeng/us/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/安鑫/新手教程java web/javaweb&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\安鑫\新手教程html\xingmeng\us\img" />
@@ -86,6 +86,10 @@
       <workItem from="1715339038333" duration="39000" />
       <workItem from="1715351010440" duration="38000" />
       <workItem from="1715396728386" duration="5742000" />
+      <workItem from="1715405730968" duration="1180000" />
+      <workItem from="1715408281528" duration="17000" />
+      <workItem from="1715414800186" duration="3241000" />
+      <workItem from="1715418318507" duration="1708000" />
     </task>
     <servers />
   </component>

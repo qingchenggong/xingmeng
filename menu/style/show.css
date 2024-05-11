@@ -58,15 +58,22 @@
     margin-top: -12.9%;
 }
 #guide2{
+    display: flex;
+    align-items: center;
     width: 600px;
     height: 100px;
-    background-color: rgb(189, 186, 186);
+    /*background-color: rgb(189, 186, 186);*/
     float: left;
     margin-top: -10.8%;
     margin-left: 51.8vw;
     opacity: 0;
 
 }
+
+#guide2 img{
+    height: 4em;
+}
+
 @keyframes mymove{
     100%{
         transform:translateY(100px);
@@ -98,8 +105,15 @@
     transform: scale(1.1);
 }
 .aaa{
-    font-size: 30px;float: left;margin-top: 30px;margin-left: 30px;text-decoration: none;color: rgb(255, 255, 255);
+    /*font-size: 30px;*/
+    font-size:2em;
+    float: left;
+    /*margin-top: 30px;*/
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     transition: all 0.5s;
+    text-shadow: 2px 2px 2px black;
 }
 :hover.aaa{
     transform: scale(1.1);
