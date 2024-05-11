@@ -120,7 +120,7 @@ height:310px;}
 #contact .bot .fr {
   width: 520px;
   height: 300px;
-  background: #F0FFFF;;
+  background-image: url("img/bcg.png");
   text-align: center;
 }
 #contact .bot .sign {
@@ -164,6 +164,6 @@ img {
 .img span{ display:inline-block; height:100%; vertical-align:middle;}
 .img img{ vertical-align:middle;}
 
-.form{background:#F0FFFF;}
+
 
 

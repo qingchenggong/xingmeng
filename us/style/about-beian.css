@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     padding-top: 10px;
-    /*border-top: 1px solid #e8e8e8;*/
+    border-top: 1px solid #e8e8e8;
     color: #666;
 }
 .ft1{
@@ -54,19 +54,19 @@
     padding: 0;
     clear: none;
     float: right;
-    /*text-align: center;*/
+    text-align: center;
 }
 .imgLoad{
     font: 12px/1.6 "Hiragino Sans GB","STHeiti","Microsoft YaHei",Helvetica,Arial,serif;
     color: #666;
-    /*text-align: center;*/
-    width: 100px;
+    text-align: center;
+    width: 115px;
     aspect-ratio: auto 100 / 140;
     height: 140px;
     margin: 0;
     padding: 0;
     border: 0;
     vertical-align: middle;
-    background: #f8f8f8;
+
     display: block;
 }

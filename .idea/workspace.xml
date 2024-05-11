@@ -8,9 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communication.html" beforeDir="false" afterPath="$PROJECT_DIR$/Communication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Communication.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Communication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us/img/weibo.png" beforeDir="false" afterPath="$PROJECT_DIR$/us/img/weibo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us/style/About-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/About-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us/style/about-beian.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/about-beian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us/style/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/us/text.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/安鑫/新手教程html/xingmeng/us/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +60,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\安鑫\新手教程html\xingmeng\us\img" />
+      <recent name="D:\安鑫\新手教程html\xingmeng\us\style" />
+      <recent name="D:\安鑫\新手教程html\xingmeng\us" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\安鑫\Desktop\xingmeng (2)\xingmeng" />
     </key>
@@ -75,6 +83,9 @@
       <workItem from="1715265837225" duration="2032000" />
       <workItem from="1715320431425" duration="516000" />
       <workItem from="1715334592296" duration="4200000" />
+      <workItem from="1715339038333" duration="39000" />
+      <workItem from="1715351010440" duration="38000" />
+      <workItem from="1715396728386" duration="5742000" />
     </task>
     <servers />
   </component>
