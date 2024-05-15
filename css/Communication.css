@@ -221,8 +221,8 @@ img.svelte-kb6fq {
 
 .item.svelte-109yyfj{
     text-decoration: none;
-    position: relative;
-    overflow: hidden;
+    position: relative;/*&设置元素的定位方式为相对定位，这样可以使元素相对于其正常位置进行定位。 */
+    overflow: hidden;/*设置元素的溢出处理方式为隐藏，这样可以隐藏元素的溢出内容。 */
 }
 
 .mobile.svelte-kb6fq{
