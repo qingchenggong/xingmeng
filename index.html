@@ -88,9 +88,20 @@
         <div id="guide2">
 <!--            <img src="menu/img/logo.png" alt="" style="width: 60px; height: 60px; margin-top: 20px;float: left; margin-left: 20px;">-->
             <img src="menu/img/logo.png" alt="">
-            <a href="" class="aaa">五月十一日&nbsp;&nbsp;&nbsp;&nbsp;小雨&nbsp;&nbsp;&nbsp;&nbsp;宜食菠菜、水萝卜、香菇、蚌肉、金橘</a>
+            <a href="" class="aaa"><span id="time"></span>&nbsp;&nbsp;&nbsp;巴南 &nbsp;多云转小雨<br>宜食菠菜、水萝卜、香菇、蚌肉、金橘</a>
         </div>
     </div>
+
+
+    <script>
+        function mytime(){
+            var a = new Date();
+            document.getElementById("time").innerHTML = a.toLocaleDateString();
+        }
+        setInterval(function() {mytime()},1000);
+    </script>
+
+
     <script>
 
         var s = document.getElementById("s");
@@ -131,7 +142,7 @@
 
     <div class="people" id="people">
         <div class="people_title">
-            <p style="font-size: 60px;font-weight: bolder;font-family: YouYuan;">香粮外传</p>
+            <p style="font-size: 60px;font-weight: bolder;font-family: YouYuan;z-index: 10;position: relative">香粮外传</p>
             <img src="menu/img/guzi.png" alt="" style="width: 300px;height: 300px;margin-left: 120px;margin-top: -130px;">
         </div>
         <div class="tell_ylp" id="tell_ylp">
@@ -316,27 +327,40 @@
         var scrollHandler = debounce(function(event) {
             event.preventDefault();
 
-            if (event.originalEvent.deltaY > 0) {
-                currentIndex++;
-                if (currentIndex >= elements.length) {
-                    currentIndex = 0;
-                }
-            } else {
-                currentIndex--;
-                if (currentIndex < 0) {
-                    currentIndex = elements.length - 1;
-                }
+            // 获取滚轮滚动的方向
+            var delta = event.originalEvent.deltaY > 0 ? 1 : -1;
+
+            // 获取当前滚动的元素
+            var currentElement = elements[currentIndex];
+
+            // 如果当前元素是.banners并且是向上滚动，则不执行滚动
+            if (currentElement === ".banners" && delta === -1) {
+                return;
             }
 
+            // 如果当前元素是.tail并且是向下滚动，则不执行滚动
+            if (currentElement === ".tail" && delta === 1) {
+                return;
+            }
+
+            // 更新当前索引
+            currentIndex += delta;
+
+            // 处理索引越界
+            if (currentIndex >= elements.length) {
+                currentIndex = 0;
+            } else if (currentIndex < 0) {
+                currentIndex = elements.length - 1;
+            }
+
+            // 执行滚动
             $('html, body').animate({
                 scrollTop: $(elements[currentIndex]).offset().top
             }, 1000);  // 1000 milliseconds = 1 second
         }, 50); // 200 milliseconds debounce time
 
         $('body').on('wheel', scrollHandler);
-
     </script>
-
 
 
 </body>

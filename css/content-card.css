@@ -12,12 +12,14 @@
     /*float: left;*/
     /*position: relative;*/
     width: 50%;/*左侧图片占50%的宽度*/
+    overflow: hidden;
     /*padding-right: 10px;!*右侧留10px的空白*!*/
 }
 .post_cover.right {
     /*float: right;*/
     /*position: relative;*/
     width: 50%;/*右侧图片占50%的宽度*/
+    overflow: hidden;
     /*margin-left: 500px;!*左侧留10px的空白*!*/
     /*margin-left: 292px;*/
 }

@@ -151,8 +151,9 @@ a, .link {
     flex-flow: column nowrap;
     background-color: #fff;
     border-radius: 4px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #1d10103b;
     position: relative;
+    box-shadow: 8px 8px 5px #00000069;
 }
 
 img.svelte-kb6fq {
@@ -304,11 +305,12 @@ img.svelte-kb6fq {
 
 .item.svelte-wpqpqh{
     border-radius: 4px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #1d10103b;
     overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    box-shadow: 8px 8px 5px #00000069;
 }
 
 .image.svelte-wpqpqh{
@@ -365,4 +367,8 @@ img.svelte-kb6fq {
     max-height: 242px;
     max-width: var(--good-reading-width);
     overflow: auto;
+}
+
+.tk-footer {
+    display: none;
 }
