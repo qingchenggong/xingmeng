@@ -372,3 +372,12 @@ img.svelte-kb6fq {
 .tk-footer {
     display: none;
 }
+
+.tk-submit-action-icon.__markdown{
+    pointer-events: none;
+    display: none;
+}
+
+.tawk-branding{
+    display: none;
+}

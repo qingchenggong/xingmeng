@@ -83,3 +83,10 @@ li {
 .dots .active {
     background-color: #ff5000;
 }
+
+
+
+.inline-block {
+    display: inline-block;
+    margin-right: 44px; /* 为了增加元素之间的间距，你可以根据需要调整这个值 */
+}

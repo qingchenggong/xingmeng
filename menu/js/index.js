@@ -98,3 +98,74 @@ window.addEventListener('load', function () {
     }, 3500);
 
 })
+
+
+
+
+
+
+
+
+// 获取实时位置
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        document.getElementById("location").innerHTML = "浏览器不支持 Geolocation API.";
+    }
+}
+
+function showPosition(position) {
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+
+    // 获取地名
+    getCityName(latitude, longitude, function(cityName) {
+        document.getElementById("location").innerHTML =cityName;
+
+        // 获取实时天气
+        getWeather(latitude, longitude, function(weatherDescription, temperature) {
+            document.getElementById("weather").innerHTML =weatherDescription +temperature + " °C";
+        });
+    });
+}
+
+function getCityName(latitude, longitude, callback) {
+    var apiKey = '88178d6a02594e78b6e66e567a416843'; // 替换为你申请的和风天气 API 的密钥
+    var geoUrl = `https://geoapi.qweather.com/v2/city/lookup?location=${longitude},${latitude}&key=${apiKey}`;
+
+    fetch(geoUrl)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.location && data.location.length > 0) {
+                var cityName = data.location[0].name;
+                callback(cityName);
+            } else {
+                callback("未知位置");
+            }
+        })
+        .catch(error => {
+            console.error('获取地名出错:', error);
+            callback("未知位置");
+        });
+}
+
+function getWeather(latitude, longitude, callback) {
+    var apiKey = '88178d6a02594e78b6e66e567a416843'; // 替换为你申请的和风天气 API 的密钥
+    var weatherUrl = `https://devapi.qweather.com/v7/weather/now?location=${longitude},${latitude}&key=${apiKey}`;
+
+    fetch(weatherUrl)
+        .then(response => response.json())
+        .then(data => {
+            var weatherDescription = data.now.text;
+            var temperature = data.now.temp;
+            callback(weatherDescription, temperature);
+        })
+        .catch(error => {
+            console.error('获取天气数据出错:', error);
+            callback("无法获取天气", "N/A");
+        });
+}
+
+// 在页面加载完毕后调用 getLocation() 函数以获取位置和天气信息
+window.onload = getLocation;
