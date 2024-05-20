@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8359c48-86a2-4f6e-9f5f-d7b6c03c9e53" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communication.html" beforeDir="false" afterPath="$PROJECT_DIR$/Communication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food.html" beforeDir="false" afterPath="$PROJECT_DIR$/Food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/content1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/content1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/content2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/content2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/content3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/content3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/baizhanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/baizhanji.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/baochaolarou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/baochaolarou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/baoxia.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/baoxia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/communicate_cooking2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/communicate_cooking2-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/communicate_cooking2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/communicate_cooking2-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/communicate_cooking2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/communicate_cooking2-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/communicate_cooking2-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/communicate_cooking2-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/dazahui.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/dazahui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/hongshaorou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/hongshaorou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/jitang.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/jitang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/kaoniurou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/kaoniurou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/maoxuewang.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/maoxuewang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/miqilinkaorou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/miqilinkaorou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/niuroumian.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/niuroumian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/qingjiaochaorou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/qingjiaochaorou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/roujiamo.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/roujiamo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cooking/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/wuhuarou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/wuhuarou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Communication.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Communication.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/content-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/food-second.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/food-second.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/recommend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/us/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/us/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +93,7 @@
       <workItem from="1715606853860" duration="779000" />
       <workItem from="1715747789062" duration="109000" />
       <workItem from="1715859976051" duration="589000" />
-      <workItem from="1716012435312" duration="11780000" />
+      <workItem from="1716012435312" duration="12010000" />
     </task>
     <servers />
   </component>

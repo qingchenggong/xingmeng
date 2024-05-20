@@ -179,22 +179,24 @@ margin: 0;
     position: absolute;
     right: 0;
     z-index: 2;
-    background-color: #fff;
+    background-color:#fff7e5;
   bottom: 0;
+
 }
 
 .carousel_icon {
     display: inline-block;
     vertical-align: middle;
-    width: 16px;
+    width: 295px;
   fill: #5d5d5d;
 }
 
 .carousel_arrow {
     cursor: pointer;
     display: inline-block;
-    padding: 11px 15px;
+    padding: 11px 12px;
     position: relative;
+
 }
 
 .carousel_arrow:nth-child(1):after {
